@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+/* 
+html{
+    background: url(./img/tumblr_868af194a6045131f9a0b3dde146975b_296cc444_400.webp) repeat fixed;     
+    background-size: cover;
+} */
+
+body{
+    background-color: black;
+    color: blue;
+    font-size: 78px;
+}
+
+.cat2{
+    margin-left: 30%;
+}
