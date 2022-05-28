@@ -13,7 +13,7 @@ li:hover{
     color: black;
 }
 
-a:hover{
+li > a:hover{
     color: red;
 }
 
@@ -91,20 +91,29 @@ body{
     margin: 1%;
 }
 
-.kit:hover{
-    background-color: brown;
-}
-
-.kit:active{
-    background-color: blueviolet;
-}
-
 .kitten{
     width: 10%;
 }
 
 .flex{
     display: flex;
+}
+
+.wordle{
+    width: 35%;
+}
+
+.wordle-flex{
+    display: flex;
+}
+
+.wordle-flex > p{
+    margin-left: 2%;
+    width: 60%;
+}
+
+.spidey{
+    width: 30%;
 }
 
 @media (max-width: 769px){
@@ -118,6 +127,10 @@ body{
     
     .header{
         display: flex;
+    }
+
+    ul{
+        font-size: 25px;
     }
 
     .all{
@@ -148,6 +161,20 @@ body{
 
     .conteudo{
         margin: 1%;
-        font-size: 16px;
+        font-size: 23px;
+    }
+
+    .wordle{
+        width: 100%;
+    }
+
+    .wordle-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wordle-flex > p{
+        margin-left: 0;
+        width: 100%;
     }
 }
