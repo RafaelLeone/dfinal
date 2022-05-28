@@ -68,7 +68,25 @@ body{
     margin-left: 23%;
 }
 
+.conteudo{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.progress{
+    display: flex;
+    flex-direction: column;
+}
+
+.kitten{
+    width: 10%;
+}
+
 @media (max-width: 769px){
+    body{
+        font-size: 30px;
+    }
+    
     .header{
         display: flex;
     }
@@ -82,17 +100,16 @@ body{
         text-align: center;
     }
 
-    .cat2{
-        width: 0;
-        position: absolute;
-    }
-
     .menu, .content{
         height: 50%;
-        width: 92%;
+        width: 89%;
     }
 
     .outro{
         margin-left: 37%;
+    }
+
+    .kitten{
+        width: 40%;
     }
 }
