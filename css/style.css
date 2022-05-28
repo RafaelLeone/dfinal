@@ -116,6 +116,20 @@ body{
     width: 30%;
 }
 
+.pepsi{
+    color: blue;
+    text-decoration: underline;
+}
+
+.pepsi:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.devia{
+    font-size: 10px;
+}
+
 @media (max-width: 769px){
     .espaco{
         height: 0;
