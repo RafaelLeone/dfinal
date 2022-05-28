@@ -49,6 +49,11 @@ body{
     width: 15%;
 }
 
+.menu-menu{
+    display: flex;
+    flex-direction: column;
+}
+
 .content{
     width: 75%;
     margin-left: 0px;
@@ -82,7 +87,15 @@ body{
     width: 10%;
 }
 
+.flex{
+    display: flex;
+}
+
 @media (max-width: 769px){
+    .espaco{
+        height: 0;
+    }
+
     body{
         font-size: 30px;
     }
@@ -105,11 +118,20 @@ body{
         width: 89%;
     }
 
+    .menu-menu{
+        flex-direction: row;
+    }
+
     .outro{
-        margin-left: 37%;
+        margin-left: 64%;
     }
 
     .kitten{
         width: 40%;
+    }
+
+    .conteudo{
+        margin: 1%;
+        font-size: 16px;
     }
 }
