@@ -99,6 +99,10 @@ body{
     display: flex;
 }
 
+.ohno-flex{
+    display: flex;
+}
+
 .wordle{
     width: 35%;
 }
@@ -112,12 +116,20 @@ body{
     width: 60%;
 }
 
+.novo-flex{
+    margin-left: 3%;
+}
+
 .pessoa{
     width: 45%;
     margin-left: -10%;
 }
 
 .respo{
+    width: 20%;
+}
+
+.compr{
     width: 20%;
 }
 
@@ -225,8 +237,12 @@ body{
         margin-left: 0;
     }
 
-    .pessoa, .respo{
+    .pessoa, .respo, .compr{
         width: 100%;
     }
 
+    .ohno-flex{
+        display: flex;
+        flex-direction: column;
+    }
 }
