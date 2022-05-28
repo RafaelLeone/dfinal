@@ -130,6 +130,12 @@ body{
     font-size: 10px;
 }
 
+.pepsiman{
+    position: absolute;
+    margin-left: 50%;
+    width: 10%;
+}
+
 @media (max-width: 769px){
     .espaco{
         height: 0;
@@ -190,5 +196,10 @@ body{
     .wordle-flex > p{
         margin-left: 0;
         width: 100%;
+    }
+
+    .pepsiman{
+        margin-left: 0;
+        margin-top: 100%;
     }
 }
