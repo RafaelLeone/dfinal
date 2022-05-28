@@ -10,6 +10,10 @@ ul{
 }
 
 li:hover{
+    color: black;
+}
+
+a:hover{
     color: red;
 }
 
@@ -81,6 +85,18 @@ body{
 .progress{
     display: flex;
     flex-direction: column;
+}
+
+.kit{
+    margin: 1%;
+}
+
+.kit:hover{
+    background-color: brown;
+}
+
+.kit:active{
+    background-color: blueviolet;
 }
 
 .kitten{
